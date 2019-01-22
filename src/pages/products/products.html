@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Products</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="action-sheets-basic-page">
+  <div class="row">
+  <button ion-button block (click)="openMenu()">
+    Open Action
+  </button>
+  </div>
+
+  <div class="row">
+    <button ion-button block (click)="openBasicAlert()">
+      Open Basic Alert
+    </button>
+  </div>
+
+  <div class="row">
+    <button ion-button block (click)="openPromptAlert()">
+      Open Basic Alert
+    </button>
+  </div>
+
+</ion-content>
